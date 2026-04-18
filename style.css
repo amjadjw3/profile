@@ -253,6 +253,18 @@ button:focus {
     -webkit-transition: .3s;
     transition: .3s;
 }
+.navbar {
+    transition: 0.3s;
+    background: transparent;
+}
+
+.navbar.nav-bg {
+    background: rgba(0,0,0,0.9) !important;
+}
+
+.navbar.scrolled {
+    background: rgba(0,0,0,0.9) !important;
+}
 .navbar-brand.logo img {
     max-height: 40px; 
     display: block; /* لضمان عدم وجود مسافات تحت الصورة */
